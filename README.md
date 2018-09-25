@@ -10,5 +10,3 @@ I would like to give credit to w3schools.com for their HTML/CSS tutorials, I use
 3) Say approximately how many hours you have spent completing the assignment.
 I would say maybe 7-10 hours? This includes learning and setting up everything in Lab 3.
 
-4) Be written in either text format (README.txt) or in Markdown (README.md). No other formats will be accepted. Please use all capital letters for README
-okay
