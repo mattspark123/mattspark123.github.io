@@ -36,7 +36,7 @@ h2{
 	display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
     border: dashed;
     border-color: #e34234;
 }
@@ -48,5 +48,5 @@ h2{
 h3
 {
 	font-family: "Verdana";
-	
+
 }
