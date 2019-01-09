@@ -1,7 +1,13 @@
 body {
   padding-top: 5rem;
   /*font-family: "Helvetica Neue";*/
-  background-color: #d5d5d5;
+  background-color: #EFEFEF;
+  color: #A9A9A9;
+}
+
+.display-4
+{
+	color: gray;
 }
 .mid {
   padding: 3rem 1.5rem;
@@ -18,6 +24,8 @@ img {
   height: auto;
 }
 
+
+
 /*
 Color Scheme
 Tangerine e37222
@@ -26,4 +34,6 @@ Powder 66b9bf
 Tan eeaa7b
 Paper d5d5d5
 https://www.awwwards.com/sites/mathemagiker
+
+https://www.awwwards.com/sites/departika
 */
