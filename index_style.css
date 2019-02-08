@@ -5,6 +5,10 @@ body {
   color: #A9A9A9;
 }
 
+h1{
+  color: gray;
+}
+
 .display-4
 {
 	color: gray;
@@ -18,11 +22,13 @@ body {
   padding: 1.5rem 1.5rem;
   text-align: center;
 }
+
 img {
   display: block;
   max-width: 20%;
   height: auto;
 }
+
 
 
 
@@ -36,4 +42,5 @@ Paper d5d5d5
 https://www.awwwards.com/sites/mathemagiker
 
 https://www.awwwards.com/sites/departika
+https://www.canva.com/learn/website-color-schemes/
 */
