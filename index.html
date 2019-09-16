@@ -1,391 +1,93 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Identity by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matthew S. Park</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+	</head>
+	<body class="is-preload">
 
-<head>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+				<!-- Main -->
+					<section id="main">
+						<header>
+							<span class="avatar"><img src="images/avatar.jpg" width = "150" height = "150" /></span>
+							<h1>Matthew S. Park</h1>
+							<p>Tufts University '19 <br> <a href="https://ase.tufts.edu/psychology/undergraduate/concCognitive.htm">B.S. Cognitive and Brain Sciences</a></p>
+						</header>
+						<!--
+						<hr />
+						<h2>Extra Stuff!</h2>
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field">
+									<input type="text" name="name" id="name" placeholder="Name" />
+								</div>
+								<div class="field">
+									<input type="email" name="email" id="email" placeholder="Email" />
+								</div>
+								<div class="field">
+									<select name="department" id="department">
+										<option value="">Department</option>
+										<option value="sales">Sales</option>
+										<option value="tech">Tech Support</option>
+										<option value="null">/dev/null</option>
+									</select>
+								</div>
+								<div class="field">
+									<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+								</div>
+								<div class="field">
+									<input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
+								</div>
+								<div class="field">
+									<label>But are you a robot?</label>
+									<input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
+									<input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
+								</div>
+							</div>
+							<ul class="actions special">
+								<li><a href="#" class="button">Get Started</a></li>
+							</ul>
+						</form>
+						<hr />
+						-->
+						<footer>
+							<ul class="icons">
+								<li><a href="files/resume.pdf" class="fa fa-file-alt">Resume</a></li>
+								<li><a href="mailto:mattspark123@gmail.com" class="fa fa-envelope">Email</a></li>
+								<li><a href="https://www.linkedin.com/in/matthew-park-93894a11a/" class="icon brands fa-linkedin">LinkedIn</a></li>
+								<li><a href="https://calendly.com/mattspark123" class="fas fa-calendar-alt">Calendly</a></li>
+							</ul>
+						</footer>
+					</section>
 
-  <title>Matthew S. Park</title>
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; Matthew S. Park</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			</div>
 
-  <!-- Custom fonts for this template -->
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+		<!-- Scripts -->
+			<script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
 
-  <!-- C++ icon -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/resume.css" rel="stylesheet">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145076079-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-145076079-1');
-  </script>
-</head>
-
-<body id="page-top">
-
-  <!-- clipboard.js script -->
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
-<script> new ClipboardJS('.btn'); </script>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">MSP</span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.JPG" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Relevant Coursework</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Activities</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <div class="container-fluid p-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-      <div class="w-100">
-        <h1 class="mb-0">Matthew
-          <span class="text-primary">S. Park</span>
-        </h1>
-        <div class="subheading mb-5">(201) 660-4690 ·
-          <a href="mailto:mattspark123@gmail.com">mattspark123@gmail.com</a>
-        </div>
-        <p class="lead mb-5"> I graduated with honors from Tufts University with a BS in Cognitive and Brain Sciences. During my undergraduate years, I developed my quantitative and analytical abilities through my Computer Science and Psychology coursework. Additionally, I pioneered an experiment that would answer the question of whether pigeon vocalizations carried information, developing my own stimulus collection paradigm in the process. I hope to bring my skills to analysis, with a focus on consulting roles.</p>
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/matthew-park-93894a11a/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/mattspark123">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="mailto:mattspark123@gmail.com">
-            <i class="fas fa-at"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Education</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Tufts University (Medford, MA)</h3>
-            <div class="subheading mb-3">Bachelor of Science in <a href = https://ase.tufts.edu/psychology/undergraduate/concCognitive.htm> Cognitive and Brain Sciences</a>, CUM LAUDE</div>
-            <div>Major GPA: 3.81 <br>GPA: 3.64 </div>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2015 - May 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-          <div class="resume-content">
-            <h3 class="mb-0">Northern Valley Regional High School at Demarest (Demarest, NJ)</h3>
-            <div class="subheading mb-3">Summa Cum Laude</div>
-            <p>GPA: 4.234 <br> SAT: R: 730/WR: 740/M: 770</p>
-
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">September 2011 - May 2015</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Relevant Coursework</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Data Structures</li>
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Statistics for Behavioral Sciences</li>
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Web Programming</li>
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Human Computer Interaction</li>
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Multitasking</li>
-          <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Spanish 6</li>
-             <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Tech Tools for Learning</li>
-             <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Research in Psychology</li>
-             <li>
-            <i class="fa-li fa fa-pencil-alt text-warning"></i>
-            Experimental Psychology</li>
-        </ul>
-      </div>
-    </section>
-
-  </div>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-      <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Research Assistant</h3>
-            <div class="subheading mb-3">Tufts University Comparative Cognition Lab</div>
-            <p>Managed 15 pigeon experimental chambers while working on personal project. Pioneered a new <a class="js-scroll-trigger" href="#projects">project</a> and designed pigeon vocal stimuli recording process from scratch. Resolved problem of unusable recordings by researching pigeon behavior and designing a new solution. Performed analysis of stimulus soundwaves and isolated the sounds using Audacity. Presented my project to both my colleagues and the psychology department. Grew project into a foundation that the lab could use for research in the future.</p>
-
-
-            <div class="modal fade postermodal" tabindex="-1" role="dialog" aria-labelledby="postermodal" aria-hidden="true" id="postermodal">
-              <div class="modal-dialog modal-xl" role="dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <img style='height: 95%; width: 95%; object-fit: contain' src = img/poster.png>
-                  </div>
-                </div>
-              </div>
-
-              
-              
-            </div>
-          </div>
-
-
-          <div class="resume-date text-md-right">
-            <span class="text-primary">November 2017 - May 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Music Event Staff</h3>
-            <div class="subheading mb-3">Tufts Granoff Music Hall</div>
-            <p>Worked in a team each shift to run various events in music hall. Interacted with up to 300 patrons each shift. Resolved unexpected problems midshow to maintain event flow.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary"> June 2017 - May 2019</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Student Supervisor</h3>
-            <div class="subheading mb-3">Tufts University: Hodgdon On-The-Run Dining</div>
-            <p>Lead a team of up to 10-12  workers per shift to successfully serve hundreds of customers. Facilitated communication between kitchen and food service during peak hours. Worked on a fast-paced food service line, preparing a variety of foods. Trained new student workers. Built relationships with part time student workers, full time staff, and regular customers </p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2015 - September 2017</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Office Intern</h3>
-            <div class="subheading mb-3">Quality Homecare Inc.</div>
-            <p>Communicated with various insurance companies and patients on a daily basis. Used the health management program QS/1 to keep track of patient data. Broke office record for most shipments prepared in a day</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">June 2016 - August 2016</span>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-     <div class="w-100">
-        <h2 class="mb-5">Activities</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Bassist/Singer</h3>
-            <div class="subheading mb-3">Musical Groups/Bands</div>
-            <p>Started two bands over three years and grew from being unknown to having ~500 followers. Obtained backing from various on campus groups to play charity events and school functions. Organized practice schedules, payments, transportation details, event flows, and stage set ups with band members and venue directors.</p>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Left Winger</h3>
-            <div class="subheading mb-3">Tufts KSA Soccer Team</div>
-            <p>Worked effectively in a team and attended weekly practice. Won a championship at BSC tournament against BC, MCPHS, NYU, Brown, Harvard, MIT, Brandeis, and others. Mentored a group of KSA “littles” and organized events throughout the school year.</p>
-          </div>
-        </div>
-
-
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-      <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
-
-        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-        <ul class="list-inline dev-icons">
-          <li class="list-inline-item">
-           <i class="devicon-cplusplus-plain"></i> 
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-html5"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicon-bootstrap-plain-wordmark"></i>
-          </li>
-          <!-- <li class="list-inline-item">
-            <i class="devicon-heroku-original-wordmark"></i>
-          </li> -->
-          <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
-          </li>
-          <!-- <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
-          </li> -->
-          <li class="list-inline-item">
-            <i class="fab fa-windows"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicon-gimp-plain"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="devicon-photoshop-plain"></i>
-          </li>
-        </ul>
-
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Korean and Spanish</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-            Experience with Microsoft Office Suite</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Experience with C++ programming,  HTML, CSS, Javascript, Bootstrap</li>
-          <!-- <li>
-            <i class="fa-li fa fa-check"></i>
-            Basic experience with jQuery, Node.js, heroku, MongoDB, SPSS</li> -->
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Basic experience with Photoshop and GIMP</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            CITI (Collaborative Institutional Training Initiative) Certified and IACUC Mandatory Animal Care and Use Trained</li>
-        </ul>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">
-      <div class="w-100">
-        <h2 class="mb-5">Projects</h2>
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="#" data-toggle="modal" data-target="#postermodal">Auditory S/D Recognition of Pigeon Vocalizations by Pigeons</a></h3>
-            <div>My research project/poster conducted in the Tufts Comparative Cognition Lab. I devised a method of collecting and cleaning pigeon vocalization samples and put the sound samples into a S/D experimental paradigm. The experiment is ongoing in the lab and will use my work as a foundation to achieve meaningful results in the future.</div>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="https://www.youtube.com/watch?v=P11KHjCYVG0">Telling YOUR Story with KIBO</a></h3>
-            <p>A video showcasing my work in my Tech Tools for Learning class. Developed a curriculum to teach kindergarteners the fundamentals of programming through the use of the KIBO robot. Taught students how to use sequential thinking and problem solving skills to plan out a story and have their robot act as the protagonist of their tale.</p>
-          </div>
-        </div>
-
-         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0"><a href="https://invis.io/7ERESWNPFJB">Smart Home UI/UX</a></h3>
-            <p>Prototype smart home interface made through Sketch and hosted on invision. Shows work that my team did with interfaces, including but not limited to paper prototyping, pilot studies, wireframing, heuristic evaluations, and task-command analyses.</p>
-          </div>
-        </div>
-
-      </div>
-        
-
-      </div>
-    </section>
-
-    
-
-    
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
-
-</body>
-
+	</body>
 </html>
